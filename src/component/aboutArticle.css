@@ -5,6 +5,7 @@
     background-color: var(--color-bg-variant);
     box-shadow: 2px 2px 2px gray;
     border-radius: 2rem;
+    padding: 2rem ;
 }
 .textContainer{
     width: 65%;
@@ -12,7 +13,7 @@
 }
 .imageContainer{
     width: 30%;
-    height: 200px;
+    height:200px ;
     
 }
 .imageContainer img{
@@ -25,21 +26,28 @@ border-radius: 0 2rem 2rem 0;
  .textContainer{
     width: 55%;
  }
+ .imageContainer{
+   
+    height:250px ;
+    
+}
 }
 @media screen and (max-width:600px) {
+    .imageContainer img{
+        border-radius:2rem ;
+    }
   .articleContainer{
         flex-direction: column;
     }   
     .textContainer{
         width: 80%;
         margin: auto;
-        margin-top:0.5rem;
-        margin-bottom: 0.5rem;
+     
     }
     .imageContainer{
         width: 80%;
+        height: 200px;
         margin: auto;
-        margin-top:0.5rem;
-        margin-bottom: 0.5rem;
+      
     }   
 }
