@@ -1,4 +1,5 @@
 import React from 'react';
+
 import "./aboutArticle.css";
 const AboutArticle = ({name,image,description}) => {
   return (

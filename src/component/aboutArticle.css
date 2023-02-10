@@ -2,13 +2,21 @@
     display: flex;
     justify-content: space-between;
     gap: 5%;
+    background-color: var(--color-bg-variant);
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 2rem;
 }
 .textContainer{
     width: 65%;
+    padding: 1rem;
 }
 .imageContainer{
     width: 30%;
     height: 200px;
+    
+}
+.imageContainer img{
+border-radius: 0 2rem 2rem 0;
 }
 @media screen and (max-width:1024px) {
  .imageContainer{

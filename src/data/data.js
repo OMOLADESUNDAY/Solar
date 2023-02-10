@@ -83,7 +83,7 @@ export const featuresData = [
     id: 1,
     image:
       "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29sYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
-    name: "Great Equipment",
+    name: "High quality Product",
     description:
       "At DLead Solar, we are passionate about making the world a better place, one solar panel at a time. Our mission is to provide high-quality solar products and services to homes and businesses, helping to reduce their carbon footprint and save on energy costs.",
   },
@@ -91,7 +91,7 @@ export const featuresData = [
     id: 2,
     image:
       "https://images.unsplash.com/photo-1605980413988-9ff24c537935?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNvbGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60",
-    name: "Personal Training",
+    name: "Clean Energy",
     description:
       "We believe that everyone should have access to clean and affordable energy, which is why we offer a range of customizable solar solutions to meet the unique needs of each customer. Our team of experts is knowledgeable, friendly, and always on hand to help you make the best decision for your property.",
   },
@@ -99,7 +99,7 @@ export const featuresData = [
     id: 3,
     image:
       "https://images.unsplash.com/photo-1589275776107-e193042128bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNvbGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60",
-    name: "Steam and Spa",
+    name: "Innovation",
     description:
       "Our company was founded on the principles of sustainability and innovation. We strive to stay ahead of the curve by offering the latest and greatest in solar technology, and our team is constantly learning and adapting to keep up with the industry's ever-evolving landscape.",
   },
@@ -107,7 +107,7 @@ export const featuresData = [
     id: 4,
     image:
       "https://images.unsplash.com/photo-1592833159057-6faf163494a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNvbGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60",
-    name: "Cleanliness",
+    name: "Customer Satisfaction",
     description:
       "At DLead Solar, we believe that the customer always comes first. That's why we have a simple and straightforward process that takes the stress out of going solar. From design and installation to maintenance and repair, we handle everything for you, so you can enjoy the benefits of clean energy with minimal hassle.",
   },
@@ -115,7 +115,7 @@ export const featuresData = [
     id: 5,
     image:
       "https://images.unsplash.com/photo-1595437193398-f24279553f4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
-    name: "Crossfit",
+    name: "Safe Future",
     description:
       "So, if you're ready to make a difference in the world and start saving on energy costs, get in touch with us today. Together, we can lead the way towards a greener and more sustainable future.",
   },
@@ -123,36 +123,8 @@ export const featuresData = [
     id: 6,
     image:
       "https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvbGFyJTIwcGFuZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
-    name: "Dancing and MMA",
+    name: "Great Services",
     description:
       "Welcome to DLead Solar, your one-stop shop for all things solar! We are a dedicated company committed to providing top-quality solar products and services to residential and commercial customers. Our mission is to help you save money and reduce your carbon footprint by harnessing the power of the sun.",
-  },
-  //   {
-  //     id: 7,
-  //     image: feature7,
-  //     name: "Steam and Spa",
-  //     description:
-  //       "We provide state-of-art facilities and special amenities and features. We Provide Massage and relaxation services",
-  //   },
-  //   {
-  //     id: 8,
-  //     image: feature8,
-  //     name: "Cleanliness",
-  //     description:
-  //       "A clean and safe environment is essential for following COVID-secure protocols and reassuring anxious members. All our equipments are highly cleaned",
-  //   },
-  //   {
-  //     id: 9,
-  //     image: feature9,
-  //     name: "Crossfit",
-  //     description:
-  //       "Personal training services and programs can help members hit their goals and offer the type of motivation needed to keep going",
-  //   },
-  //   {
-  //     id: 10,
-  //     image: feature10,
-  //     name: "Dancing and MMA",
-  //     description:
-  //       "MMA instructors can help teach you about competing and can recommend other trainers that can improve your technique. join and improve their skills with the help",
-  //   },
+  }
 ];
