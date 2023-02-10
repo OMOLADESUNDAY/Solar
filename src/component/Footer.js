@@ -27,11 +27,7 @@ const Footer = () => {
                 Know more about us
               </Link>
             </p>
-            <p>
-              <Link to="gallery" className="footerList">
-                Check our gallery
-              </Link>
-            </p>
+           
             <p>
               <Link to="rate" className="footerList">
                 Rate us now

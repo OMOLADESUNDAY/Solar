@@ -7,22 +7,27 @@ const Home = () => {
     return (
       <section>
         <div className="container homeContainer">
+          <div className="overlay"></div>
           <div className="thinkingTextContainer">
-            <h1 className="thinkingTextH1">Are you having issues with light?</h1>
+            <h1 className="thinkingTextH1">
+              Are you having issues with light?
+            </h1>
             <p className="thinkingText">
               Welcome to D-Lead solar power solution we do all sort of solar
               power connection etc
             </p>
-            <Link className="btn getInTouch" to="/contact">
-              Get In Touch
-            </Link>
+            <div className='getInTouchContainer'>
+              <Link className="btn getInTouch" to="/contact">
+                Get In Touch
+              </Link>
+            </div>
           </div>
 
           <div className="thinkingContainer">
             <img src={Thinking} alt="solar power" />
           </div>
-            </div>
-            <h1 className='newsLetterH1'>Newsletter</h1>
+        </div>
+        <h1 className="newsLetterH1">Newsletter</h1>
         <Newsletter />
       </section>
     );
