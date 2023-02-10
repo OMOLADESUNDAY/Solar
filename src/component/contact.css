@@ -1,1 +1,74 @@
-<input type='text' required placeholder='Enter your name'/>
+.contactContainer{
+    display: flex;
+    margin: auto;
+}
+.contactLeft{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.contactRight{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.Input{
+    margin: auto;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom:1px solid var(--color-secondary) ;
+    width: 60%;
+}
+.textarea{
+    width: 60%;
+    height: 30vh;
+}
+.icon{
+    color: black;
+}
+.error{
+    color: red;
+}
+@media screen and (max-width:1024px) {
+ .contactLeft{
+    width: 20%;
+ }
+ .contactRight{
+    width: 70%;
+ }
+ .textarea{
+    width: 80%;
+ }
+ .Input{
+    width: 80%;
+ }
+}
+@media screen and (max-width:600px) {
+  .contactContainer{
+    flex-direction: column;
+    margin: auto;
+  }   
+  .contactLeft{
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+.contactRight{
+    width: 90%;
+    margin: auto;
+}
+  .contactSubmit{
+    font-size: 1rem;
+    padding:0.5rem 2.5rem;
+  }
+}

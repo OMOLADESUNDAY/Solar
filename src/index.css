@@ -48,6 +48,7 @@ img{
 .container{
   width: var(--container-lg);
   margin: auto;
+  /* border: solid; */
 }
 h2,h3,h4,h5{
   color: var(--color-secondary);
