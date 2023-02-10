@@ -1,0 +1,23 @@
+.testimonyImageContainer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+.testimonyImage{
+    border-radius: 50%;
+}
+.testimonyArticleContainer{
+    min-width: 30%;
+    box-shadow:2px 2px 3px 4px gray;
+    padding: 2rem;
+}
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:600px) {
+    .testimonyArticleContainer{
+        width: 80%;
+        margin: auto;
+    }
+}

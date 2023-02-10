@@ -1,0 +1,16 @@
+.newsLetterH1{
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 2rem;
+    text-shadow:2px 3px 5px gray;
+    margin: 2rem;
+    
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.aboutWrapper{
+    margin: 2rem 0;
+}

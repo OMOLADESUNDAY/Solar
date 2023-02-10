@@ -1,0 +1,40 @@
+.newsLetterWrapper{
+    background-color: var(--color-bg-variant);
+}
+.newsletterContainer{
+   
+    padding: 2rem;
+    text-align: center;
+    /* text-align: center;
+    justify-content: space-between; */
+}
+.sub{
+    font-size: 1rem;
+    width: 50%;
+}
+.subSubmit{
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+}
+@media screen and (max-width:1024px) {
+  .newsletterContainer{
+    justify-content: flex-start;
+  }
+  .sub{
+        width: 60%;
+       
+    }
+}
+@media screen and (max-width:600px) {
+    .sub{
+        width: 90%;
+        margin: auto;
+    }
+    .subSubmit{
+        margin: auto;
+    }
+    .form{
+    display: flex;
+    flex-direction: column;
+ } 
+}

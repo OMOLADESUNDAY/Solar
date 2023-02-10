@@ -1,0 +1,53 @@
+
+.homeContainer{
+    display: flex;
+    align-items: center;
+    /* background-color: var(--color-bg-variant); */
+}
+.thinkingContainer{
+    width: 50%;
+}
+.thinkingTextContainer{
+    width: 50%;
+    
+}
+.thinkingText{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.getInTouch{
+    margin-top:2rem;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.thinkingTextH1{
+    text-shadow:2px 3px 5px gray;
+    font-size: 3rem;
+    color: var(--color-secondary);
+}
+.newsLetterH1{
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 2rem;
+    text-shadow:2px 3px 5px gray;
+    margin: 2rem;
+    
+}
+@media screen and (max-width:1024px) {
+  .thinkingContainer{
+    display: none;
+  }
+  .homeContainer{
+    background:url('../image/thinking.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+   
+  }
+  .thinkingTextContainer{
+    width: 80%;
+  }
+}
+@media screen and (max-width:600px) {
+  
+  
+}
