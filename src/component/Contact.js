@@ -48,7 +48,7 @@ const Contact = () => {
       console.log(readyContactObject);
     }
     
-    
+    e.target.reset()
   }
   return (
     <section className="contactContainer container">

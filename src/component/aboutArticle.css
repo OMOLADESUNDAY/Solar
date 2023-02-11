@@ -40,12 +40,12 @@ border-radius: 0 2rem 2rem 0;
         flex-direction: column;
     }   
     .textContainer{
-        width: 80%;
+        width: 100%;
         margin: auto;
      
     }
     .imageContainer{
-        width: 80%;
+        width: 100%;
         height: 200px;
         margin: auto;
       

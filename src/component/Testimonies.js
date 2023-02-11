@@ -8,10 +8,10 @@ const Testimonies = () => {
   const leftArrow='<';
   const rightArrow='>';
   const displayIndex = testimoniesData.slice(firstIndex, thirdIndex);
-  if (window.screen.width < 600) {
-    console.log(window.screen.width)
-    setThirdIndex(testimoniesData.length);
-  }
+  // if (window.screen.width < 600) {
+  //   console.log(window.screen.width)
+  //   setThirdIndex(testimoniesData.length);
+  // }
   const rightClickHandler = () => {
     setThirdIndex((prevThirdIndex) => {
       if (prevThirdIndex >= testimoniesData.length) {

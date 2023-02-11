@@ -75,19 +75,6 @@
     
   }
   
-  /* .homeContainer::before {    
-      content: "";
-      position: absolute;
-       min-height: 80vh;
-      top: 0%;
-      right: 0%;
-      bottom: 0%;
-      left: 0%;
-      background-image: url('../image/thinking.jpg');
-      background-size: cover;
-      opacity: 0.1;
-      margin-bottom: 2rem;
-} */
   .thinkingTextContainer{
     width: 80%;
   }
